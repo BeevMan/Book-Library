@@ -1,0 +1,16 @@
+form.form-newBook {
+    display: table;
+}
+
+div.form-newBook {
+    display: table-row;
+}
+
+label, button {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
