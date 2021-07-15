@@ -1,17 +1,17 @@
 let bookLibrary = [];
 
 
-function Book( title, author, pages, read ) {
-    // the constructor
-    this.title = title
-    this.author = author
-    this.pageCount = pages
-    this.isRead = read
-}
+class Book {
+    constructor( title, author, pages, read ) {
+        this.title = title
+        this.author = author
+        this.pageCount = pages
+        this.isRead = read
+    }
 
-
-Book.prototype.toggleIsRead = function() {
-    this.isRead ? this.isRead = false : this.isRead = true
+    toggleIsRead() {
+        this.isRead ? this.isRead = false : this.isRead = true
+    }
 }
 
 
